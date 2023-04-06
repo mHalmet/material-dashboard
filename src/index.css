@@ -4,10 +4,10 @@ html,
 body,
 #root,
 .app,
-content{
-  height:100%;
+.content {
+  height: 100%;
   width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .app {
@@ -20,7 +20,7 @@ content{
 }
 
 /* Track */
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #e0e0e0;
 }
 
@@ -29,7 +29,7 @@ content{
   background: #888;
 }
 
-/* Handle on Hover */
-::-webkit-scrollbar-track:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
